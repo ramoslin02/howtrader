@@ -404,6 +404,7 @@ class ArrayManager(object):
         """
         return self.open_interest_array
 
+
 def virtual(func: Callable) -> Callable:
     """
     mark a function as "virtual", which means that this function can be override.
